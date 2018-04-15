@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5bc20842705bedbf5c9333d871fe9659a1917dd1c292bc180578b187b9907d22
+-- hash: 6a92d3dc75d0306671a19fd1d5540ce21f57ee39557e6543d7fc144524fc0114
 
 name:           clase-git
 version:        0.1.0.0
@@ -62,14 +62,18 @@ test-suite clase-git-test
       Equipo1.Iteracion1Spec
       Equipo1.Iteracion2Spec
       Equipo1.Iteracion3Spec
+      Equipo1.Iteracion4Spec
       Equipo2.Iteracion1Spec
       Equipo2.Iteracion2Spec
       Equipo2.Iteracion3Spec
+      Equipo2.Iteracion4Spec
       Equipo3.Iteracion1Spec
       Equipo3.Iteracion2Spec
       Equipo3.Iteracion3Spec
+      Equipo3.Iteracion4Spec
       Equipo4.Iteracion1Spec
       Equipo4.Iteracion2Spec
       Equipo4.Iteracion3Spec
+      Equipo4.Iteracion4Spec
       Paths_clase_git
   default-language: Haskell2010

@@ -10,6 +10,8 @@ data Raton = UnRaton{
 
 
 type Hierba = (Raton -> Raton)
+
+type Medicamento = (Raton -> Raton )
 --Iteracion  1
 
 modificarNombre ::  (String -> String) -> Raton -> Raton
@@ -52,6 +54,7 @@ rovitril :: Raton -> Raton
 
 rovitril raton = undefined
 
+
 reduceFatFast :: Int -> Raton -> Raton
 
 reduceFatFast n raton = undefined
@@ -59,3 +62,21 @@ reduceFatFast n raton = undefined
 repressitol :: Raton -> Raton
 
 repressitol raton = undefined
+
+
+--Iteracion 4
+
+medicamentosUtiles :: [Medicamento] -> (Raton -> Bool) -> Raton -> [Medicamento]
+medicamentosUtiles medicamentos condicion raton = undefined
+
+estanMasLindosQueNunca :: [Raton] -> Medicamento -> Bool
+
+estanMasLindosQueNunca raton medicamento  = undefined
+
+vamoACalmarno :: [Raton] -> [Raton]
+
+vamoACalmarno ratones = undefined
+
+pesoPromedio :: [Raton] -> Float
+
+pesoPromedio ratones = undefined
