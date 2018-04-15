@@ -5,7 +5,7 @@ data Raton = UnRaton{
     edad :: Float,
     peso :: Float,
     enfermedades :: [String],
-    estado :: (String, Float)
+    animo :: (String, Float)
 } deriving(Show,Eq)
 
 
@@ -34,7 +34,6 @@ alcachofa :: Raton -> Raton
 
 alcachofa raton = undefined
 
-
 hierbaZord :: Raton -> Raton
 
 hierbaZord raton = undefined
@@ -42,3 +41,21 @@ hierbaZord raton = undefined
 medicamento :: [Hierba] -> Raton -> Raton
 
 medicamento hierbas raton = undefined
+
+--Iteracion 3
+
+pondsAntiAge :: Raton -> Raton
+
+pondsAntiAge raton = undefined
+
+rovitril :: Raton -> Raton
+
+rovitril raton = undefined
+
+reduceFatFast :: Int -> Raton -> Raton
+
+reduceFatFast n raton = undefined
+
+repressitol :: Raton -> Raton
+
+repressitol raton = undefined
