@@ -1,0 +1,67 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 36d68645a6bcad7f6d9c7437e89224ffce66b7d6aa7c23aec0bcc34f10e28cf7
+
+name:           clase-git
+version:        0.1.0.0
+description:    Please see the README on Github at <https://github.com/githubuser/clase-git#readme>
+homepage:       https://github.com/githubuser/clase-git#readme
+bug-reports:    https://github.com/githubuser/clase-git/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/clase-git
+
+library
+  hs-source-dirs:
+      lib
+  build-depends:
+      base >=4.7 && <5
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_clase_git
+  default-language: Haskell2010
+
+executable clase-git-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , clase-git
+  other-modules:
+      Paths_clase_git
+  default-language: Haskell2010
+
+test-suite clase-git-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , clase-git
+    , hspec
+  other-modules:
+      Equipo1.Iteracion1Spec
+      Equipo2.Iteracion1Spec
+      Equipo3.Iteracion1Spec
+      Equipo4.Iteracion1Spec
+      Paths_clase_git
+  default-language: Haskell2010
