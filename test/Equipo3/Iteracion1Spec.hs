@@ -4,10 +4,9 @@ module Equipo3.Iteracion1Spec where
     
     spec :: SpecWith ()
     spec = do
-      describe "Ratonsitos" $ do
+      describe "equipo 3" $ do
         let cerebro = UnRaton "cerebro" 13 1.3 ["rabia"] ("normal",1)
-        context "equipo 3" $ do
-          context "iteracion 1 " $ do
-            it "la funcion modificarPeso aplicada con (/2) reduce a la mitad el peso del raton" $ do
-                (modificarPeso (/2) cerebro)  `shouldBe` (cerebro{peso = 0.65} :: Raton)
+        context "iteracion 1 " $ do
+          it "la funcion modificarPeso aplicada con (/2) reduce a la mitad el peso del raton" $ do
+              (modificarPeso (/2) cerebro)  `shouldBe` (cerebro{peso = 0.65} :: Raton)
                   
